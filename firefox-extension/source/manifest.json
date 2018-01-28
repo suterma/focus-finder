@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Flink",
+  "version": "1.0",
+
+  "description": "Adds unobtrusive fragment links to and for every header and span element (with an id attribute) on a web page.",
+
+  "icons": {
+    "48": "icons/link-6x.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["flink.user.js"]
+    }
+  ]
+
+}
