@@ -1,5 +1,5 @@
 # flink
-A browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page. This enables you to share a link directly to a specific part of a web page.
+Share direct links to parts of a web page. Flink is a browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page. This enables you to create a link directly to a specific part of a web page.
 
 For Firefox only, so far.
 
