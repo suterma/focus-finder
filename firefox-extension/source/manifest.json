@@ -2,9 +2,9 @@
 
   "manifest_version": 2,
   "name": "Flink",
-  "version": "1.0",
+  "version": "1.1",
 
-  "description": "Adds unobtrusive fragment links to and for every header and span element (with an id attribute) on a web page.",
+  "description": "Share direct links to parts of a web page. Flink is a browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page. This enables you to create a link directly to a specific part of a web page.",
 
   "icons": {
     "48": "icons/link-6x.png"

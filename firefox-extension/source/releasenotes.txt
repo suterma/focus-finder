@@ -1,9 +1,9 @@
 About
-Flink adds unobtrusive fragment links to and for every header and span element (with an id attribute) on a web page.
-
+Share direct links to parts of a web page. Flink is a browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page. This enables you to create a link directly to a specific part of a web page.
 
 Version
 1.0 - first version with simple styles
+1.1 - improved styles for more simplicity
 
 
 Known issues
