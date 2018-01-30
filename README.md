@@ -1,5 +1,5 @@
 # flink
-Share direct links to parts of a web page. Flink is a browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page. This enables you to create a link directly to a specific part of a web page.
+Share direct links to parts of a web page. Flink is a browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page.
 
 ![flink usage example](https://github.com/suterma/flink/raw/master/firefox-extension/dev/FlinkApplication.png)
 
@@ -12,7 +12,7 @@ Just get it on the Firefox add-ons page: https://addons.mozilla.org/en-US/firefo
 Using a user scripting tool like Greasemonkey and Tampermonkey (and optionally a user style tool like stylish or stilus) you can run and tweak flink to your own needs. Use the provides scripts and styles from the dev direcotry.
 
 ## How it works
-Flink injects some simpe javascript and css into every visited page. This script finds every HTML header (and span element) on the page. If the element has an id attribute, it adds a fragment link to this element. Using this link, another user's browser can directly scroll to that part of the page.
+Flink injects some simple javascript and css into every visited page. This script finds every HTML header (and span element) on the page. If the element has an id attribute, it adds a fragment link to this element. Using this link, another user's browser can directly scroll to that part of the page.
 
 ## Credits
 Flink is based on efforts by others, to mention a few:
