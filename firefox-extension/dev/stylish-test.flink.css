@@ -15,7 +15,6 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
 /* Overview
  * This CSS styles a flink target and anchor
  * It causes the anchor to be visible only when hovering over the target
@@ -34,16 +33,17 @@
 :link:hover.flink-anchor {
     /* never use underline for this link category */
     
+    border: none;
     text-decoration: none;
 }
-/* Use an icon for the anchor */
-
-.flink-anchor-icon {
+.flink-anchor {
+    border: none;
+    background-color: greenyellow;
     /* Position the anchor to fit nicely at the end of the title text */
     
     position: absolute;
-    bottom: 0.2em;
     width: 2em;
+    /* Use an icon for the anchor */
     /* Background image */
     /* Use the "link-intact" icon from the open iconic set.*/
     /* The open iconic set is provided under the MIT License See https://opensource.org/licenses/MIT.*/
@@ -58,8 +58,25 @@
 /* Show the anchor only when hovered over the target */
 
 .flink-target > .flink-anchor {
-    display: none;
+    display: inline-flex;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 .flink-target:hover > .flink-anchor {
     display: inline-flex;
+    opacity: 1;
+}
+@keyframes highlight {
+    0% {
+        background: greenyellow
+    }
+    100% {
+        background: none;
+    }
+}
+.flink-target.flink-targetted {
+    /* Hightlight targetted element 
+       background-color: inherit;*/
+    
+    animation: highlight 5s;
 }
