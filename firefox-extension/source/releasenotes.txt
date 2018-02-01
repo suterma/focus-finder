@@ -9,6 +9,9 @@ Version
 Known issues
 - Displays a warning when uploading to AMO: Unsafe assignment to innerHTML. However, since the injected HTML is completely self-contained, there is no malicious injection possible.
 
-Content
+Package Content
 - Contains all necessary files. The minified css in the script is created from the provided full css file.
+
+Source Code
+- https://github.com/suterma/flink/tree/master/firefox-extension/source
 
