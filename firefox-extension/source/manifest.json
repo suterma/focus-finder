@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Flink",
-  "version": "1.1",
+  "version": "1.2",
 
   "description": "Share direct links to parts of a web page. Flink is a browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page. This enables you to create a link directly to a specific part of a web page.",
 
