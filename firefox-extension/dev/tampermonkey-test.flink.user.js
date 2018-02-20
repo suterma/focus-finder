@@ -15,7 +15,7 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // ==UserScript==
-// @name         Flink
+// @name         Flink-DEV
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Adds unobtrusive fragment links to and for every header and span element (with an id attribute) on a web page.
@@ -50,8 +50,11 @@
         var flinkElement = flinkElements[i];
         if (flinkElement.hasAttribute('id'))
         {
-            //Prepend the anchor element to the existing inner content.
-            flinkElement.innerHTML = flinkElement.innerHTML + "<a href='#" + flinkElement.id + "' class='flink-anchor' title='Click or share this link to autoscroll to this position.'>&nbsp;</a>";
+            //Prepend the anchor element to the existing inner content (using a surrounding span to break the hovering over other links failing issue)
+            flinkElement.innerHTML = flinkElement.innerHTML + "<span><a href='#" + flinkElement.id + "' class='flink-anchor' title='Click or share this link to autoscroll to this position.'>&nbsp;</a></span>";
+            
+            //Append the anchor to the flink target element            
+            //flinkElement.insertAdjacentHTML("afterend","<a href='#" + flinkElement.id + "' class='flink-anchor' title='Click or share this link to autoscroll to this position.'>&nbsp;</a>");
             flinkElement.className += " flink-target";
         }
     }
