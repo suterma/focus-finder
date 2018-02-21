@@ -50,10 +50,10 @@
         var flinkElement = flinkElements[i];
         if (flinkElement.hasAttribute('id'))
         {
-            //Prepend the anchor element to the existing inner content (using a surrounding span to break the hovering over other links failing issue)
+            //Append the anchor element to the existing inner content (using a surrounding span to break the hovering over other links failing issue)
             flinkElement.innerHTML = flinkElement.innerHTML + "<span><a href='#" + flinkElement.id + "' class='flink-anchor' title='Click or share this link to autoscroll to this position.'>&nbsp;</a></span>";
             
-            //Append the anchor to the flink target element            
+            //Unused variant: Append the anchor to the flink target element            
             //flinkElement.insertAdjacentHTML("afterend","<a href='#" + flinkElement.id + "' class='flink-anchor' title='Click or share this link to autoscroll to this position.'>&nbsp;</a>");
             flinkElement.className += " flink-target";
         }
