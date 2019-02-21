@@ -1,4 +1,9 @@
 # flink
+![License](https://img.shields.io/github/license/suterma/flink.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/suterma/flink/total.svg)
+![Release](https://img.shields.io/github/release/suterma/flink.svg)
+![Language](https://img.shields.io/github/languages/top/suterma/flink.svg)
+
 Share direct links to parts of a web page. Flink is a browser extension that adds unobtrusive direct (fragment) links to and for elements on a web page.
 
 ![flink usage example](https://github.com/suterma/flink/raw/master/firefox-extension/dev/FlinkApplication.png)
