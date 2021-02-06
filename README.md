@@ -1,12 +1,12 @@
 # focus-finder
-![License](https://img.shields.io/github/license/suterma/flink.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/suterma/flink/total.svg)
-![Release](https://img.shields.io/github/release/suterma/flink.svg)
-![Language](https://img.shields.io/github/languages/top/suterma/flink.svg)
+![License](https://img.shields.io/github/license/suterma/focus-finder.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/suterma/focus-finder/total.svg)
+![Release](https://img.shields.io/github/release/suterma/focus-finder.svg)
+![Language](https://img.shields.io/github/languages/top/suterma/focus-finder.svg)
 
 Globally highlights the currently focused or hovered input field, button or action item. This helps visually navigating and observing the structure of a website.
 
-![flink usage example](https://github.com/suterma/flink/raw/master/firefox-extension/dev/FlinkApplication.png)
+![focus-finder usage example](https://github.com/suterma/focus-finder/raw/master/firefox-extension/FocusFinderApplication.png)
 
 For Firefox only, so far.
 
